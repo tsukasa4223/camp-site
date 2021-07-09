@@ -1,0 +1,144 @@
+body, header, div, p, h1, span {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+ color: #f00;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+body {
+  padding: 0px 100px;
+  /* background-color: #bad3ff; */
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #000;
+}
+
+header > p {
+  color: #fff;
+  line-height: 70px;
+}
+
+.all {
+  width: 100%;
+  /* border: #000 solid 1px; */
+}
+
+h1 {
+  text-align: center;
+}
+
+.date-tag {
+  width: 100%;
+  float: right;
+  padding: 30px;
+}
+
+.post-date {
+  float: right;
+}
+
+.main-profile {
+  width: 100%;
+}
+
+.main-profile img {
+  width: 200px;
+  height: 200px;
+  margin: 10px 0px;
+}
+
+.toc {
+  margin: 30px;
+  padding: 30px;
+  background-color: #eee;
+  border: #000 solid 1px;
+}
+
+h2 {
+  border-bottom: #0c0 solid 4px;
+}
+
+h3 {
+  border-bottom: #0c0 solid 2px;
+}
+
+h4 {
+  border-bottom: #0c0 solid 1px;
+}
+
+p {
+  padding-bottom: 2rem;
+}
+
+.slide {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 720px;
+  background-color: black;
+}
+
+.toolbar {
+  overflow: hidden;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+}
+
+#prev {
+  margin-right: 0.5rem;
+  width: 16px;
+  height: 16px;
+}
+
+#next {
+  margin-left: 0.5rem;
+  width: 16px;
+  height: 16px;
+  background: url("file:///Users/ootsukatsukasa/Downloads/23E4A007-7C81-4F7D-A599-5786926B07AF.JPG");
+}
+
+.img {
+  width: 600px;
+  height: 500px;
+  background: url("file:///Users/ootsukatsukasa/Downloads/23E4A007-7C81-4F7D-A599-5786926B07AF.JPG");
+}
+
+.page-top {
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.page-top:hover {
+  background: #bbb;
+}
+
+.scroll-toppage {
+  font-size: 1.6em;
+}
+
+footer {
+  width: 100%;
+  padding: 30px 0;
+  padding-left: 10px;
+}
